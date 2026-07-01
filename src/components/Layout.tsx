@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
+import scholarProfileImage from '../assets/sobia-scholar-profile.png'
 import { CV_URL, navItems } from '../data/portfolio'
 
 export function Header() {
@@ -11,9 +12,13 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/[0.92] shadow-[0_1px_0_rgba(15,23,42,0.04)] backdrop-blur-xl">
       <nav aria-label="Primary" className="section-shell flex h-[4.5rem] items-center justify-between">
         <a className="focus-ring flex items-center gap-3 rounded-md" href="#home">
-          <span className="grid h-10 w-10 place-items-center rounded-md bg-navy text-sm font-semibold text-white shadow-soft">
-            SA
-          </span>
+          <img
+            alt="Dr Sobia Amjad"
+            className="h-10 w-10 rounded-full border border-slate-200 object-cover shadow-soft"
+            height="40"
+            src={scholarProfileImage}
+            width="40"
+          />
           <span className="font-display text-base font-semibold text-navy">
             Dr Sobia Amjad
           </span>
