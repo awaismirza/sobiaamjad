@@ -25,7 +25,7 @@ On every push to `main`, GitHub Actions installs dependencies with `npm ci`, run
 The custom domain is configured in `public/CNAME`:
 
 ```txt
-sobiamajd.com
+sobiaamjad.com
 ```
 
 ## Updating Portfolio Links and Content
