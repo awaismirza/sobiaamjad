@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white text-slate-650">
       <Header />
+      {/* Keep section order aligned with the single-page navigation. */}
       <main>
         <HeroSection />
         <AboutSection />
