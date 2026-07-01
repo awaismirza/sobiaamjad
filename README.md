@@ -1,16 +1,41 @@
-# React + Vite
+# Dr Sobia Amjad Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Professional portfolio website for Dr Sobia Amjad, built with React, TypeScript, Vite and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Run Locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Production Build
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm run typecheck
+npm run build
+```
 
-## Expanding the Oxlint configuration
+## GitHub Pages Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Deployments are handled by `.github/workflows/deploy-pages.yml`.
+
+On every push to `main`, GitHub Actions installs dependencies with `npm ci`, runs TypeScript checks, builds the Vite app, uploads the `dist` folder and deploys it to GitHub Pages.
+
+The custom domain is configured in `public/CNAME`:
+
+```txt
+sobiamajd.com
+```
+
+## Updating Portfolio Links and Content
+
+Most portfolio content lives in `src/data/portfolio.ts`.
+
+- Update the CV download link by replacing `CV_URL`.
+- Update the LinkedIn link by replacing `LINKEDIN_URL`.
+- Update the thesis link by replacing `THESIS_URL`.
+- Edit projects in the `projects` array.
+- Edit publications by updating `FEATURED_PUBLICATION_URL` and the Publications section copy in `src/components/Sections.tsx`.
+
+Placeholder links are intentionally set to `#` until the final public URLs are available.
