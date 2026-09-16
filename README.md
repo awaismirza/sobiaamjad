@@ -1,6 +1,6 @@
-# Dr Sobia Amjad Portfolio
+# Sobia Amjad, PhD Portfolio
 
-Professional portfolio website for Dr Sobia Amjad, built with React, TypeScript, Vite and Tailwind CSS.
+Professional portfolio website for Sobia Amjad, PhD, built with React, TypeScript, Vite and Tailwind CSS.
 
 ## Run Locally
 

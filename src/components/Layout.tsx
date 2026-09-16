@@ -13,14 +13,14 @@ export function Header() {
       <nav aria-label="Primary" className="section-shell flex h-[4.5rem] items-center justify-between">
         <a className="focus-ring flex items-center gap-3 rounded-md" href="#home">
           <img
-            alt="Dr Sobia Amjad"
+            alt="Sobia Amjad"
             className="h-10 w-10 rounded-full border border-slate-200 object-cover shadow-soft"
             height="40"
             src={scholarProfileImage}
             width="40"
           />
           <span className="font-display text-base font-semibold text-navy">
-            Dr Sobia Amjad
+            Sobia Amjad
           </span>
         </a>
 
@@ -80,7 +80,7 @@ export function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-navy py-9 text-white">
       <div className="section-shell flex flex-col gap-4 text-sm sm:flex-row sm:items-center sm:justify-between">
-        <p>© {new Date().getFullYear()} Dr Sobia Amjad. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Sobia Amjad, PhD. All rights reserved.</p>
         <div className="flex flex-wrap gap-4 text-white/70">
           <a className="transition hover:text-white" href="#projects">
             Projects
