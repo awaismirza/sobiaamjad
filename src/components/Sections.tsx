@@ -75,7 +75,10 @@ export function HeroSection() {
     <section className="section-shell grid min-h-[calc(86svh-4.5rem)] items-center gap-12 py-12 sm:py-14 lg:grid-cols-[1fr_0.86fr]" id="home">
       <div className="animate-rise">
         <h1 className="max-w-4xl font-display text-5xl font-semibold leading-[1.02] text-navy sm:text-6xl lg:text-7xl">
-          Dr Sobia Amjad
+          Sobia Amjad
+          <span className="text-2xl font-normal tracking-normal text-slate-500 sm:text-3xl lg:text-4xl">
+            , PhD
+          </span>
         </h1>
         <p className="mt-5 max-w-3xl text-xl font-medium leading-8 text-teal-800 sm:text-2xl">
           Clinical Data Scientist | Health Informatics | Machine Learning | Clinical AI
